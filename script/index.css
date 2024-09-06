@@ -2,11 +2,11 @@
 	background-image: url('../img/banner-bbcc.png');
 	background-size: cover;
 	background-position: center center;
-	height: 40vh;
+	height: 85vh;
 }
 @media (min-width: 992px) {
 	#banner {
-		height:60vh;
+		height:85vh;
 	}
 }
 
