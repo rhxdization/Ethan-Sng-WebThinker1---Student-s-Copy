@@ -34,7 +34,8 @@
   <!-- Here the main container where students should code -->
   <article class="min-vh-100">
     <!-- Banner Region -->
-    <div id="banner"></div>
+    <div id="banner">
+    </div>
     <!-- Page Header -->
     <div class="container pt-4 py-3">
       <h1 class="text-center fw-bold display-4">Events</h1>
@@ -51,56 +52,80 @@
       <h3 class="h4 pb-3">Upcoming Events</h3>
 
       <!-- Add the class needed to make, A striped table, A table with borders & A different shade of colour on hover -->
-      <table class="table table-sm">
-        <!-- Record 1 Details
-              2 Sep 2023
-              12 pm, Singapore Time
-              CodeJam - Gear up for an exhilarating 48-hour coding competition. Are you up for the challenge?
-        -->
-        <!-- Record 2 Details
-              9 Sep 2023
-              8 pm, Singapore Time
-              Game Night - Time to unwind with a fun-filled night of multiplayer games. Can you beat the reigning champ?
-        -->
-        <!-- Record 3 Details
-              23 Sep 2023
-              5 pm, Singapore Time
-              Tech Company Networking - We receive a valuable opportunity to network with individual from top tech companies which will allow our members to exchange ideas, knowledge and gain insights on what to expect upon graduation!
-        -->
+      <table class="table table-sm table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Slots</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>17 September 2024</td>
+            <td>2pm SGT</td>
+            <td><h4>CodeJam</h4>Gear up for an exhilarating 48-hour coding competition. Are you up for the challenge?
+              <p>
+                <button type="button" class="btn btn-success">Register Now!</button>
+              </p>
+            </td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>26 September 2024</td>
+            <td>10pm SGT</td>
+            <td><h4>Game Night</h4>Time to unwind with a fun-filled night of multiplayer games. Can you beat the reigning champ?
+              <p>
+                <button type="button" class="btn btn-danger">FULL</button>
+              </p>
+            </td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>3 October 2024</td>
+            <td>1pm SGT</td>
+            <td><h4>PSLE Celebration</h4>Celebrate the end of PSLE with all the members of BBCC! Enjoy snacks, drinks, and games! Anyone can participate.
+              <p>
+                <button type="button" class="btn btn-primary">Anyone can participate!</button>
+              </p>
+            </td>
+            <td>No limit</td>
+          </tr>
+        </tbody>
       </table>
-
-      <!-- Create a second table for past events -->
-      <!-- Record 1 Details
-            22 Apr 2023
-            12 pm, Singapore Time
-            AI Seminar - We explored the intriguing world of artificial intelligence with a guest speaker from XYZ Tech.
-      -->
-      <!-- Record 2 Details
-            27 May 2023
-            3 pm, Singapore Time
-            Learn with ByteBusters: Web Developement Workshop - Our skilled members conducted an informative workshop on the basics of HTML, CSS, and JavaScript.
-      -->
-      <!-- Record 3 Details
-            5 June  2023
-            6 pm, Singapore Time
-            Code with Heart - Our members provided coding workshops to under priviledge youths
-      -->
-      <!-- Record 4 Details
-            18 June 2023
-            8 pm, Singapore Time
-            What's Coding? - Our members did a school-wide promotion on what is coding and the usage of coding in our daily lifes, we also talk aobut the different career path one may choose to take!
-      -->
-      <!-- Record 5 Details
-            29 June 2023
-            2 pm, Singapore Time
-            Bonding Session - Our members organised an annual coding & chilling session which allowed current members and as well alumni to network and also get to know one another better!
-      -->
-
+      <h3 class="h4 pb-3">Past Events</h3>
+      <table class="table table-sm table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>11 September 2024</td>
+            <td>4pm SGT</td>
+            <td><h4>AI Seminar</h4>We explored the intriguing world of artificial intelligence with a guest speaker from XYZ Tech.</td>
+          </tr>
+          <tr>
+            <td>29 August 2024</td>
+            <td>10am SGT</td>
+            <td><h4>Learn with ByteBusters: Web Developement Workshop</h4>Our skilled members conducted an informative workshop on the basics of HTML, CSS, and JavaScript.</td>
+          </tr>
+          <tr>
+            <td>18 August 2024</td>
+            <td>5pm SGT</td>
+            <td><h4>Code with Heart</h4>Our members provided coding workshops to under priviledge youths.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </article>
   <!-- End of coding region -->
   <footer class="bg-dark text-light">
-    <div class="container py-2 pb-4">XXX</div>
+    <div class="container py-2 pb-4">I'm too lazy to write the footer.</div>
   </footer>
 </body>
 </html>
