@@ -116,14 +116,30 @@
      }
    </script>
    <form>
-    First Name: 
-    <input type="text" id="firstname" name="FirstName" placeholder="" />
-    Age:
-    <input type="number" id="age" name="Age" placeholder="" />
-    Date Of Birth (DD/MM/YYYY):
-    <input type="date" id="dateofbirth" name="DateOfBirth" placeholder="" />
-    Email:
-    <input type="email" id="email" name="Email" placeholder="" />
+    <div class="pl-5 pr-5 row">
+    <div class="col-2">
+      <label for="firstname">First Name:</label>
+      <input class="form-control" type="text" id="firstname" name="FirstName" placeholder="Enter your name" />
+    </div>
+    <div class="col-10">
+      <label for="email">Email:</label>
+      <input class="form-control" type="email" id="email" name="Email" placeholder="" />
+    </div>
+      <div class="col-2">
+        <label for="dateofbirth">Age:</label>
+        <input class="form-control" type="number" id="age" name="Age" placeholder="" />
+      <div class="col-10">
+        <label for="dob">Date Of Birth:</label>
+        <input class="form-control" type="date" id="dob" name="DOB" placeholder="" />
+      <div>
+    <div class="col-12">
+      <label for="queries">Subject:</label> 
+      <textarea class="form-control" id="queries" rows="5">not anymore</textarea>
+    </div>
+    <div class="pt-3">
+      <button type="reset" class="btn btn-success">Send</button>
+    </div>
+  </div>
   </form>
 </body>
 </html>
