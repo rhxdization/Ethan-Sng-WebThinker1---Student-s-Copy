@@ -43,14 +43,27 @@
 		<!-- Leading Text -->
 		<div class="py-3 bg-success bg-opacity-25">
 			<div class="container">
-				<p>Ever wondered what happens when teenagers armed with coding knowledge decide to conquer the universe? Well, we got the answer right here! Welcome to our showcase of stellar projects.</p>
+				<p class="text-center" style="font-size: 18px">Ever wondered what happens when teenagers armed with coding knowledge decide to conquer the universe? Well, we got the answer right here! Welcome to our showcase of stellar projects.</p>
 			</div>
 		</div>
 		<!-- Key section -->
 		<div class="container py-3 pb-4">
 			<!-- Create An Unordered List with 2 List Items -->
-
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<button class="btn nav-link rounded-pill active" data-bs-toggle="pill" data-bs-target="#scratch">Scratch Projects</button>
+				</li>
+				<li class="nav-item">
+					<button class="btn nav-link rounded-pill" data-bs-toggle="pill" data-bs-target="#canvas">HTML Canvas Projects</button>
+				</li>
+			</ul>
 			<div class="tab-content">
+				<div id="scratch" class="tab-pane fade show active">
+					Insert Scratch Project
+				</div>
+				<div id="canvas" class="tab-pane fade">
+					Insert Canvas Project
+				</div>
 				<!-- Create two tabs for Project Showcase
 	-  The first tab should have
 				- One header of "Monke & Banana" with the following source: https://scratch.mit.edu/projects/808392264/embed (Width 485 & Height 402)

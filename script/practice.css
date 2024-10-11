@@ -1,30 +1,4 @@
-h1 {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-size: 6rem;
-  background: linear-gradient(to right, #0099ff,#ffff00,#0099ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-h2 {
-  color: red;
-}
-h3 {
-  color: white;
-  background: orange;
-}
-h4 {
-  color: yellow;
-  background: yellow;
-}
-h5 {
-  color: green;
-  background: green;
-}
-h6 {
-  color: blue;
-  background: blue;
-}
+
 .ohio {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
