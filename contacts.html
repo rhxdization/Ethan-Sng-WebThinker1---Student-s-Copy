@@ -43,8 +43,8 @@
 		</div>
 		<!-- Leading Text -->
 		<div class="py-3 bg-success bg-opacity-25">
-			<div class="container">
-				<p>Hey there, fellow coder! Got a question? An idea? Just want to say 'Hi'? Drop us a line below. We'll get back to you quicker than a JavaScript loop!</p>
+			<div class="container text-center">
+				<p class="text-center" style="font-size: 18px">Hey there, fellow coder! Got a question? An idea? Just want to say 'Hi'? Drop us a line below. We'll get back to you quicker than a JavaScript loop!</p>
 			</div>
 		</div>
 		<!-- Key section -->
@@ -52,7 +52,8 @@
 			<div class="row gy-3">
 				<div class="col-6">
 					<label for="firstname">First Name:</label>
-      				<input class="form-control" type="text" id="firstname" name="FirstName" placeholder="Enter your first name" />
+      				<input class="form-control is-invalid" type="text" id="firstname" name="FirstName" placeholder="Enter your first name" />
+					<p id="firstname_e" class="text-danger">Wow, your parents never gave you your name! Well, that isn't possible, so tell us your real name!</p>
 				</div>
 				<div class="col-6">
 					<label for="lastname">Last Name:</label>
@@ -91,7 +92,7 @@
 					<textarea class="form-control" id="subject" rows="5" placeholder="Enter your question here and we will answer in a few hours!"></textarea>
 				</div>
 				<div class="container pt-3">
-					<button type="reset" class="btn btn-primary">Send Query</button>
+					<button type="reset" class="btn btn-primary" onclick="validate();">Send Query</button>
 				</div>
 				<!-- Label: Name*
 						 Text Input field -->
@@ -109,6 +110,6 @@
 		</form>
 	</article>
 	<!-- End of coding region -->
-	<footer class="bg-dark text-light"><div class="container py-2 pb-4">Done by Computhink Kids SG.</div></footer>
+	<footer class="bg-dark text-light"><div class="container py-2 pb-4">Done by Ethan Sng CT06</div></footer>
 </body>
 </html>
