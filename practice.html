@@ -124,33 +124,30 @@
       console.log("Number is odd.")
      }
    </script>
-   <form>
-    <div class="pl-5 pr-5 row">
-    <div class="col-2">
-      <label for="firstname">First Name:</label>
-      <input class="form-control" type="text" id="firstname" name="FirstName" placeholder="Enter your name" />
-    </div>
-    <div class="col-10">
-      <label for="email">Email:</label>
-      <input class="form-control" type="email" id="email" name="Email" placeholder="" />
-    </div>
-      <div class="col-2">
-        <label for="dateofbirth">Age:</label>
-        <input class="form-control" type="number" id="age" name="Age" placeholder="" />
-      <div class="col-10">
-        <label for="dob">Date Of Birth:</label>
-        <input class="form-control" type="date" id="dob" name="DOB" placeholder="" />
-      <div>
-    <div class="col-12">
-      <label for="queries">Subject:</label> 
-      <textarea class="form-control" id="queries" rows="5">not anymore</textarea>
-    </div>
-    <div class="pt-3">
-      <button type="reset" class="btn btn-success">Send</button>
-    </div>
-  </div>
-  </form>
-  
   <script src="script/practice.js"></script>
+  <canvas id="drawingboard" width="600" height="600" class="border border-dark"></canvas>
+  <script>
+    const canvas = document.getElementById("drawingboard");
+    // console.log(canvas);
+    let ctx = canvas.getContext("2d");
+    // console.log(ctx)
+    const centerX = canvas.width / 2;
+    const centerY = canvas.width / 2;
+    // Begin new Path
+    // ctx.beginPath();
+    // ctx.arc(300, 300, 50, 0, 2 * Math.PI);
+    // ctx.fillStyle = "rgb(128, 0, 128)"
+    // ctx.fill();
+    // ctx.lineWidth = 10;
+    // ctx.strokeStyle = "rgb(255, 0, 0)"
+    // ctx.stroke();
+    let gradient = ctx.createRadialGradient(50,50,0,150,150,150);
+    gradient.addColorStop(0, "rgb(0, 0, 255)");
+    gradient.addColorStop(0.5, "rgb(255, 0, 0)");
+    gradient.addColorStop(1, "rgb(255, 255, 0)");
+    ctx.fillStyle = gradient
+    ctx.fillRect(150, 200, 300, 200)
+    
+ </script>
 </body>
 </html>
